@@ -1,0 +1,20 @@
+name: ronaldo
+options:
+  bundleIdPrefix: com.wex
+targets:
+  ronaldo:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - source
+      - assets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.wex.ronaldo
+        PRODUCT_NAME: ronaldo
+        INFOPLIST_KEY_CFBundleDisplayName: ronaldo
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        CODE_SIGNING_ALLOWED: NO
